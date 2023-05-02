@@ -16,6 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(authentication);
 app.use(event)
 
-app.listen(3000, () => {
-  console.log(`Example app listening on port ${3000}`);
+app.listen(8000, () => {
+  console.log(`Example app listening on port ${8000}`);
 });
